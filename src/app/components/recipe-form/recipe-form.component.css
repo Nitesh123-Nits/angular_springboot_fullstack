@@ -1,0 +1,36 @@
+.container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+h2{
+    text-align: center;
+    font-family: 'Courier New', Courier, monospace;
+}
+form{
+    padding: 1rem;
+    box-shadow: 2px 2px 3px rgba(0,0,0,.3);
+    background-color: azure;
+}
+
+form div{
+    display: flex;
+    gap: 1rem;
+    justify-content: space-between;
+    margin-bottom: 1rem;
+}
+ input,textarea{
+    border: 0;
+    box-shadow: 2px 2px 4px rgba(0,0,0,.4);
+    height: 3rem;
+    width: 15rem;
+ }
+ button{
+    border: 0;
+    background-color: blueviolet;
+    color: aliceblue;
+    padding: 1rem 2rem;
+    text-align: center;
+    margin: auto;
+    display: block;
+ }

@@ -1,0 +1,25 @@
+<div class="container">
+  <div>
+    <h2>Add a New Recipe</h2>
+    <form (ngSubmit)="onSubmit()">
+      <div>
+        <label for="title">Title:</label>
+        <textarea  id="title" [(ngModel)]="recipe.title" name="title" required ></textarea>
+      </div>
+      <div>
+        <label for="description">Description:</label>
+        <textarea id="description" [(ngModel)]="recipe.description" name="description" required></textarea>
+      </div>
+      <div>
+        <label for="ingredients">Ingredients:</label>
+        <textarea id="ingredients" [(ngModel)]="recipe.ingredients" name="ingredients" required></textarea>
+      </div>
+      <div>
+        <label for="instructions">Instructions:</label>
+        <textarea id="instructions" [(ngModel)]="recipe.instructions" name="instructions" required></textarea>
+      </div>
+      <button type="submit">Add Recipe</button>
+    </form>
+  </div>  
+  </div>
+  
